@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es-CO" class="h-100"> <!--class="h-100"-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulario</title>
+	<meta name="theme-color" content="#ff2e01">
+	<meta name="MobileOptimized" content="width">
+	<meta name="HandhledFriendly" content="true">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar" content="black-traslucent"> 
+	
+	<!--Tags SEO-->
+	<meta name="author" content="Miproyecto">
+	<meta name="description" content="Aplicativo para enseñanza de Bootstrap">
+	<meta name="keyworks" content="SENA, sena, Sena, Web App, web app, WEB APP">
+
+	<!--Favicon-->
+	<link rel="icon" type="image/x-icon" href="media/logo_café_-removebg-preview.png">
+	<link rel="apple-touch-icon" type="image/png" href="media/logo_café_-removebg-preview.png">
+	<link rel="apple-touch-startup-image" type="image/png" href="media/logo_café_-removebg-preview.png">
+
+	<!--Styles Bootstrap 5.3.1 Alpha-->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	<script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+   
+</head>
+<body>
+	<div class="form-signin">
+		<form action="" method="post" enctype="application/x-www-form-urlencoded">
+			<div class="mb-3 mt-3">
+			  <label for="nombre" class="form-label">Nombre</label>
+			  <input type="text" class="form-control" placeholder=" Introduzca el Nombre" name="nombre" required>
+			  <label for="apellido" class="form-label">Apellido</label>
+			  <input type="text" class="form-control"  placeholder=" Introduzca los apellidos" name="apellido" required>
+			  <label for="documento" class="form-label">Documento</label>
+			  <input type="text" class="form-control"  placeholder=" Introduzca el documento" name="documento" onkeypress="return event.charCode >= 48 && event.charCode <=57" required>
+			  <label for="telefono" class="form-label">Telefono </label>
+			  <input type="number" class="form-control"  placeholder=" Introduzca el telefono" name="telefono" required>
+			  <label for="direccion" class="form-label">Direccion </label>
+			  <input type="text" class="form-control"  placeholder=" Introduzca la direccion" name="direccion" required>
+			  <label for="correo electronico" class="form-label">Correo electronico</label>
+			  <input type="email" class="form-control"  placeholder="Introduzca el email" name="correo_electronico" required>
+			  <label for="clave" class="form-label">Clave</label>
+			  <input type="password" class="form-control"  placeholder="Introduzca la clave de su correo" name="clave" required>
+
+			  <div class="mb-3">
+			  <button  href="compras.html" type="submit" class="btn btn-outline-primary" name="guardar" style="margin: 0 auto;" >Registrarme</button>
+			  <a href="index.html" class="btn btn-outline-primary col-2 m-4" role="button">Atras</a>
+			  </div>
+
+			</div>
+			
+		  </form>
+		</div>
+    
+</body>
+</html>
